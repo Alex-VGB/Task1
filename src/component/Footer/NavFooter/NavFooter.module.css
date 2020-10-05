@@ -1,0 +1,75 @@
+.navFooter {
+    background: #242b54;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 2px;
+}
+
+.navFooter div div a {
+    color: #fff;
+    text-decoration: none;
+}
+.navFooter div div a:hover {
+    color: rgb(250, 87, 87);
+}
+.navFooter .links {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    width: 100%;
+}
+.navFooter .links div {
+    padding: 15px;
+}
+.navFooter .links div {
+    padding-left: 35px;
+}
+
+.navFooter .icon {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    width: 30%;
+}
+
+.navFooter .icon a svg:hover path {
+    fill: rgb(250, 87, 87);
+}
+
+.navFooter .icon .tw svg {
+    margin-left: 20px;
+}
+@media (max-width: 600px) {
+    .navFooter {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .navFooter .links {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .navFooter .icon {
+        justify-content: center;
+        width: 100%;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navFooter .links .logo {
+        padding-bottom: 20px;
+    }
+    .navFooter .links div {
+        padding-left: 0;
+    }
+    .navFooter .icon .tw svg {
+        margin-left: 50px;
+    }
+}

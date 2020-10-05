@@ -1,0 +1,66 @@
+.btn {
+    display: inline-block;
+}
+.btn a {
+    border: solid 2px rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    transition: .3s;
+    -webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
+}
+.btn.btnBlue a {
+    border: solid 2px rgb(83, 104, 223);
+    background: rgb(83, 104, 223);
+    color: #fff;
+}
+.btn.btnBlue:hover a {
+    border: solid 2px rgb(83, 104, 223);
+    background: rgb(255, 255, 255);
+    color: rgb(83, 104, 223);
+}
+.btn.btnRed a {
+    border: solid 2px rgb(250, 87, 87);
+    background: rgb(250, 87, 87);
+    color: #fff;
+}
+.btn.btnRed:hover a {
+    border: solid 2px rgb(250, 87, 87);
+    background: rgb(255, 255, 255);
+    color: rgb(250, 87, 87);
+}
+.btn.btnGrey a {
+    border: solid 2px rgb(241, 242, 243);
+    background: rgb(241, 242, 243);
+    color: #333;
+}
+.btn.btnGrey:hover a {
+    border: solid 2px rgb(82, 89, 96);
+    background: rgb(255, 255, 255);
+    color: rgb(82, 89, 96);
+}
+@media (max-width: 768px) {
+    .btn a {
+        padding: 10px 7px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 600px) {
+    .btn a {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 375px) {
+    .btn.btnRed a {
+        border: solid 2px rgb(255, 255, 255);
+        background: transparent;
+    }
+
+}

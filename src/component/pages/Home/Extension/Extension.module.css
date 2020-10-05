@@ -1,0 +1,43 @@
+.text {
+    text-align: center;
+    padding: 0 15px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item:nth-child(2) {
+    padding: 0 20px;
+    margin-top: 35px;
+}
+
+.item:nth-child(3) {
+    margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+    .item:nth-child(2),
+    .item:nth-child(3) {
+        margin-top: 0;
+    }
+
+    .items {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .item:nth-child(2) {
+        padding: 0;
+    }
+
+    .item {
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,28 @@
+.card {
+    width: 250px;
+    height: 350px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.card .logo {
+    text-align: center;
+    line-height: 5px;
+}
+.card .text {
+    text-align: center;
+}
+.card .text p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+.card .dots img {
+    max-width: 250px;
+}

@@ -1,0 +1,45 @@
+.Tabs {
+    width: 100%;
+    padding: 25px 0;
+}
+.Tabs .text {
+    text-align: center;
+    padding: 25px 25px;
+}
+.tab {
+    width: 100%;
+    padding: 60px 0;
+    margin-top: 35px;
+    color: #333;
+}
+
+ul.inline {
+    display: flex;
+    justify-content: center;
+}
+ul.inline li {
+    display: inline-block;
+    padding: 10px 60px;
+    border-bottom: 3px solid #eee;
+    transition: all .5s;
+    font-weight: 300;
+    cursor: pointer;
+    color: #aaa;
+}
+ul.inline .selected {
+    border-bottom: 3px solid rgb(250, 87, 87);
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    ul.inline li {
+        padding: 10px 10px;
+    }
+}
+@media (max-width: 600px) {
+    ul.inline {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,28 @@
+.logo {
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+    }
+}
+@media (max-width: 375px) {
+    .logo {
+        width: initial;
+        margin-left: 20px;
+        line-height: 15px;
+        z-index: 1;
+}
+    .logo.open svg g path,
+    .logo.open svg g g circle{
+        fill: #fff;
+    }
+    .logo.open svg g g path {
+        fill: transparent;
+    }
+}

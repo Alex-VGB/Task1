@@ -1,0 +1,15 @@
+header {
+    min-height: 70px;
+    background: #fff;
+    color: #333;
+    font-size: 18px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
